@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * *"     # roda diariamente à meia-noite
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,10 +24,15 @@ jobs:
             dist/github-contribution-grid-snake.svg
 
       - name: Deploy SVG to branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git clone --branch output https://github.com/${{ github.repository }} output || git clone https://github.com/${{ github.repository }} output
+          cd output
+          cp -r ../dist/* .
+          git add .
+          git commit -m "Update snake animation" || echo "No changes to commit"
+          git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
