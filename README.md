@@ -46,3 +46,4 @@ Acredito no poder dos dados para gerar soluções inteligentes e impactar positi
 <!-- Snake Animation personalizada -->
 ![snake gif](https://github.com/jessica-re88/jessica-re88/blob/output/github-contribution-grid-snake.svg)
 
+
