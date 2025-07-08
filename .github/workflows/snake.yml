@@ -23,16 +23,28 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
 
-      - name: Deploy SVG to branch
+            - name: Deploy SVG to branch
         run: |
+          set -eux  # ativa modo de debug para mostrar comandos e sair em erro
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git clone --branch output https://github.com/${{ github.repository }} output || git clone https://github.com/${{ github.repository }} output
-          cd output
+
+          # Tenta clonar branch 'output', se falhar clona todo repositório e cria branch 'output'
+          if git clone --branch output https://github.com/${{ github.repository }} output; then
+            echo "Branch 'output' clonada com sucesso"
+            cd output
+          else
+            echo "Branch 'output' não existe, criando branch"
+            git clone https://github.com/${{ github.repository }} output
+            cd output
+            git checkout -b output
+          fi
+
           cp -r ../dist/* .
           git add .
-          git commit -m "Update snake animation" || echo "No changes to commit"
+          git commit -m "Update snake animation" || echo "Sem alterações para commitar"
           git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
