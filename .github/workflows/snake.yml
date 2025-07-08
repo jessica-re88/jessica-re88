@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"     # roda diariamente à meia-noite
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,18 +23,17 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
 
-            - name: Deploy SVG to branch
+      - name: Deploy SVG to branch
         run: |
-          set -eux  # ativa modo de debug para mostrar comandos e sair em erro
+          set -eux
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
 
-          # Tenta clonar branch 'output', se falhar clona todo repositório e cria branch 'output'
           if git clone --branch output https://github.com/${{ github.repository }} output; then
             echo "Branch 'output' clonada com sucesso"
             cd output
           else
-            echo "Branch 'output' não existe, criando branch"
+            echo "Branch 'output' não existe, criando..."
             git clone https://github.com/${{ github.repository }} output
             cd output
             git checkout -b output
@@ -42,9 +41,10 @@ jobs:
 
           cp -r ../dist/* .
           git add .
-          git commit -m "Update snake animation" || echo "Sem alterações para commitar"
+          git commit -m "Update snake animation" || echo "Sem alterações para commit"
           git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 
