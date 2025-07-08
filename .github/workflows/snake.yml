@@ -2,15 +2,16 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # Executa diariamente à meia-noite
+  workflow_dispatch:     # Permite executar manualmente pelo botão "Run workflow"
 
 permissions:
-  contents: write
+  contents: write        # Dá permissão de escrita na branch "output"
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -24,27 +25,13 @@ jobs:
             dist/github-contribution-grid-snake.svg
 
       - name: Deploy SVG to branch
-        run: |
-          set -eux
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-
-          if git clone --branch output https://github.com/${{ github.repository }} output; then
-            echo "Branch 'output' clonada com sucesso"
-            cd output
-          else
-            echo "Branch 'output' não existe, criando..."
-            git clone https://github.com/${{ github.repository }} output
-            cd output
-            git checkout -b output
-          fi
-
-          cp -r ../dist/* .
-          git add .
-          git commit -m "Update snake animation" || echo "Sem alterações para commit"
-          git push origin output --force
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 
 
