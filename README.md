@@ -47,3 +47,9 @@ Acredito no poder dos dados para gerar soluções inteligentes e impactar positi
 ![snake gif](https://github.com/jessica-re88/jessica-re88/blob/output/github-contribution-grid-snake.svg)
 
 
+### 🔧 Projeto em destaque
+
+<a href="https://github.com/jessica-re88/dio-lab-open-source">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jessica-re88&repo=dio-lab-open-source&theme=dracula" alt="dio-lab-open-source" />
+</a>
+
