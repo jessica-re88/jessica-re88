@@ -37,15 +37,18 @@ Acredito no poder dos dados para gerar soluções inteligentes e impactar positi
 
 <p>
   <a href="https://web.dio.me/users/jessica20rebello">
-  <img src="https://img.shields.io/badge/-Meu%20Perfil%20na%20DIO-30A3DC?style=for-the-badge" alt="Perfil DIO" />
-</a>
-  <a href="mailto:Jessica20rebello@hotmail.com">
-    <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email" ></a>
-  <a href="https://www.linkedin.com/in/j%C3%A9ssica-rebello-6077001b6/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
+    <img src="https://img.shields.io/badge/Meu%20Perfil%20na%20DIO-2D2D2D?style=for-the-badge&logo=dio&theme=dracula" alt="Perfil DIO" />
+  </a>
 
-##
+  <a href="mailto:Jessica20rebello@hotmail.com">
+    <img src="https://img.shields.io/badge/Email-2D2D2D?style=for-the-badge&logo=microsoft-outlook&theme=dracula" alt="Email" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/j%C3%A9ssica-rebello-6077001b6/">
+    <img src="https://img.shields.io/badge/LinkedIn-2D2D2D?style=for-the-badge&logo=linkedin&logoColor=FF6EC7&labelColor=2D2D2D" alt="LinkedIn" />
+  </a>
+</p>
+
 
 <!-- Snake Animation personalizada -->
 ![snake gif](https://github.com/jessica-re88/jessica-re88/blob/output/github-contribution-grid-snake.svg)
