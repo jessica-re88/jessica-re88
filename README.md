@@ -1,10 +1,14 @@
 <h1 align="center">Olá! Eu sou a Jéssica Rebello Cunha</h1>
 
 <p align="center">
-Sou estudante de Programação e apaixonada por aprender coisas novas.  
-Atualmente estou me aprofundando em Programação de Sistemas de Informação, Dados e Análise de Dados.  
-Gosto de tudo o que envolve análise e transformação de informação.  
-Acredito no poder dos dados para gerar soluções inteligentes e impactar positivamente o mundo.
+Sou estudante e entusiasta da área de Tecnologia e Programação, em processo de migração de carreira. Apaixonada por aprender coisas novas e transformar ideias em soluções práticas, venho me aprofundando em diversas áreas, como:
+
+Desenvolvimento de Sistemas e Aplicações: HTML, CSS, JavaScript, Python, React Native, Next.js.
+
+Análise de Dados: Power BI, dashboards, SQL, estatística, consultas em banco de dados.
+
+Acredito no poder da tecnologia — seja através da programação ou dos dados — para criar soluções inteligentes e gerar impacto positivo no mundo.
+Aqui você encontra meu portfólio com projetos reais, que refletem minha jornada de aprendizado e minha evolução na área.
 </p>
 
 ##
