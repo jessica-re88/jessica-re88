@@ -15,8 +15,8 @@ Aqui você encontra meu portfólio com projetos reais, que refletem minha jornad
 
 <!-- GitHub Stats e Linguagens -->
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jessica-re88&show_icons=true&theme=radical"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jessica-re88&layout=compact&theme=radical"/>
+  <img height="180em" src="https://github-readme-stats-66vuy8umo-jessica-re88s-projects.vercel.app/api?username=jessica-re88&show_icons=true&theme=radical"/>
+  <img height="180em" src="https://github-readme-stats-66vuy8umo-jessica-re88s-projects.vercel.app/api/top-langs/?username=jessica-re88&layout=compact&theme=radical"/>
 </div>
 
 ##
@@ -61,6 +61,7 @@ Aqui você encontra meu portfólio com projetos reais, que refletem minha jornad
 ### 🔧 Projeto em destaque
 
 <a href="https://github.com/jessica-re88/dio-lab-open-source">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jessica-re88&repo=dio-lab-open-source&theme=dracula" alt="dio-lab-open-source" />
+  <img src="https://github-readme-stats-66vuy8umo-jessica-re88s-projects.vercel.app/api/pin/?username=jessica-re88&repo=dio-lab-open-source&theme=dracula" alt="dio-lab-open-source" />
 </a>
+
 
