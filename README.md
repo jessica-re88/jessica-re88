@@ -16,9 +16,9 @@ Aqui você encontra meu portfólio com projetos reais, que refletem minha jornad
 <!-- GitHub Stats e Linguagens -->
 <div align="center">
   <img height="180em" src="https://raw.githubusercontent.com/jessica-re88/github-readme-stats/master/generated/overview.svg"/>
-  
   <img height="180em" src="https://raw.githubusercontent.com/jessica-re88/github-readme-stats/master/generated/languages.svg"/>
 </div>
+
 ##
 
 <!-- Tecnologias -->
