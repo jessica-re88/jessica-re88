@@ -13,13 +13,27 @@ Aqui você encontra meu portfólio com projetos reais, que refletem minha jornad
 
 ##
 
-<!-- GitHub Stats e Linguagens via Shields.io -->
+<!-- Painéis Avançados de GitHub -->
 <div align="center">
-  <img height="180em" src="https://img.shields.io/github/stars/jessica-re88?style=for-the-badge&logo=github" alt="GitHub Stars"/>
-  <img height="180em" src="https://img.shields.io/github/forks/jessica-re88?style=for-the-badge&logo=github" alt="GitHub Forks"/>
-  <br/>
-  <img height="180em" src="https://img.shields.io/github/languages/top/jessica-re88?style=for-the-badge&logo=github" alt="Top Language"/>
+  <!-- Perfil -->
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jessica-re88&theme=dracula&border_radius=20" alt="Profile Details" />
+
+  <!-- Linguagens mais usadas -->
+  <!-- Repositórios por linguagem -->
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jessica-re88&theme=dracula" alt="Repos by Language" />
+
+  <!-- Estatísticas -->
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jessica-re88&theme=dracula&border_radius=20" alt="Stats" />
 </div>
+
+
+##
+
+<!-- Gráfico de contribuições estilo “snake” -->
+<div align="center">
+  <img src="https://github.com/jessica-re88/jessica-re88/blob/output/github-contribution-grid-snake.svg" alt="GitHub Contributions" />
+</div>
+
 
 ##
 
@@ -57,14 +71,8 @@ Aqui você encontra meu portfólio com projetos reais, que refletem minha jornad
 
 ##
 
-<!-- Snake Animation personalizada -->
-![snake gif](https://github.com/jessica-re88/jessica-re88/blob/output/github-contribution-grid-snake.svg)
-
-##
-
 ### 🔧 Projetos em destaque
 
-<a href="https://github.com/jessica-re88/dio-lab-open-source">
-  <img src="https://img.shields.io/github/stars/jessica-re88/dio-lab-open-source?style=for-the-badge&logo=github" alt="dio-lab-open-source" />
-</a>
-
+  <a href="https://github.com/jessica-re88/dio-lab-open-source">
+    <img src="https://img.shields.io/github/stars/jessica-re88/dio-lab-open-source?style=for-the-badge&logo=github&color=ff79c6&labelColor=2d2d2d" alt="dio-lab-open-source" />
+  </a>
