@@ -16,14 +16,14 @@ Aqui você encontra meu portfólio com projetos reais, que refletem minha jornad
 <!-- Painéis Avançados de GitHub -->
 <div align="center">
   <!-- Perfil -->
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jessica-re88&theme=dracula&border_radius=20" alt="Profile Details" />
+  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jessica-re88&theme=dracula&border_radius=20" alt="Profile Details" /> <br>
 
   <!-- Linguagens mais usadas -->
   <!-- Repositórios por linguagem -->
-<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jessica-re88&theme=dracula" alt="Repos by Language" />
+<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jessica-re88&theme=dracula" alt="Repos by Language" />
 
   <!-- Estatísticas -->
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jessica-re88&theme=dracula&border_radius=20" alt="Stats" />
+  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jessica-re88&theme=dracula&border_radius=20" alt="Stats" />
 </div>
 
 
@@ -41,13 +41,13 @@ Aqui você encontra meu portfólio com projetos reais, que refletem minha jornad
 ### 🧠 Tecnologias que estou estudando
 
 <div align="left">
-  <a href="https://www.cplusplus.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/></a>
-  <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="40" height="40"/></a>
-  <a href="https://www.w3.org/html/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="40" height="40"/></a>
-  <a href="https://www.mysql.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/></a>
-  <a href="https://www.python.org" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/></a>
-  <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/></a>
-  <a href="https://github.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/></a>
+  <a href="https://www.cplusplus.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="50" height="50"/></a>
+  <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="50" height="50"/></a>
+  <a href="https://www.w3.org/html/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="50" height="50"/></a>
+  <a href="https://www.mysql.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="50" height="50"/></a>
+  <a href="https://www.python.org" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50"/></a>
+  <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/></a>
+  <a href="https://github.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50"/></a>
 </div>
 
 ##
