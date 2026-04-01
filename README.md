@@ -13,10 +13,12 @@ Aqui você encontra meu portfólio com projetos reais, que refletem minha jornad
 
 ##
 
-<!-- GitHub Stats e Linguagens -->
+<!-- GitHub Stats e Linguagens via Shields.io -->
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-66vuy8umo-jessica-re88s-projects.vercel.app/api?username=jessica-re88&show_icons=true&theme=radical"/>
-  <img height="180em" src="https://github-readme-stats-66vuy8umo-jessica-re88s-projects.vercel.app/api/top-langs/?username=jessica-re88&layout=compact&theme=radical"/>
+  <img height="180em" src="https://img.shields.io/github/stars/jessica-re88?style=for-the-badge&logo=github" alt="GitHub Stars"/>
+  <img height="180em" src="https://img.shields.io/github/forks/jessica-re88?style=for-the-badge&logo=github" alt="GitHub Forks"/>
+  <br/>
+  <img height="180em" src="https://img.shields.io/github/languages/top/jessica-re88?style=for-the-badge&logo=github" alt="Top Language"/>
 </div>
 
 ##
@@ -53,15 +55,16 @@ Aqui você encontra meu portfólio com projetos reais, que refletem minha jornad
   </a>
 </p>
 
+##
 
 <!-- Snake Animation personalizada -->
 ![snake gif](https://github.com/jessica-re88/jessica-re88/blob/output/github-contribution-grid-snake.svg)
 
+##
 
-### 🔧 Projeto em destaque
+### 🔧 Projetos em destaque
 
 <a href="https://github.com/jessica-re88/dio-lab-open-source">
-  <img src="https://github-readme-stats-66vuy8umo-jessica-re88s-projects.vercel.app/api/pin/?username=jessica-re88&repo=dio-lab-open-source&theme=dracula" alt="dio-lab-open-source" />
+  <img src="https://img.shields.io/github/stars/jessica-re88/dio-lab-open-source?style=for-the-badge&logo=github" alt="dio-lab-open-source" />
 </a>
-
 
