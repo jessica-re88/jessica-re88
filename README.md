@@ -16,14 +16,14 @@ Aqui você encontra meu portfólio com projetos reais, que refletem minha jornad
 <!-- Painéis Avançados de GitHub -->
 <div align="center">
   <!-- Perfil -->
-  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jessica-re88&theme=dracula&border_radius=20" alt="Profile Details" /> <br>
+  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jessica-re88&theme=dracula&border_radius=20" alt="Profile Details" /> <br>
 
   <!-- Linguagens mais usadas -->
   <!-- Repositórios por linguagem -->
-<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jessica-re88&theme=dracula" alt="Repos by Language" />
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jessica-re88&theme=dracula" alt="Repos by Language" />
 
   <!-- Estatísticas -->
-  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jessica-re88&theme=dracula&border_radius=20" alt="Stats" />
+  <img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jessica-re88&theme=dracula&border_radius=20" alt="Stats" />
 </div>
 
 
